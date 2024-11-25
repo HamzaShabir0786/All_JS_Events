@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(56, 23, 23);
+}
+.imgBox {
+  background-image: url("tools.png");
+  position: relative;
+  top: 3px;
+  left: 3px;
+  height: 145px;
+  width: 145px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.whiteBox {
+  height: 155px;
+  width: 155px;
+  background-color: white;
+  border: 3px solid red;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 10px;
+}
+.hold {
+  border: 13px solid black;
+}
+.hide {
+  display: none;
+}
+.bg {
+  background-color: darkblue;
+}
